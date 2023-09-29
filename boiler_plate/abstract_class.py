@@ -1,7 +1,6 @@
 class Soldier:
-	def __init__(self, soldier_type, name, weapon):
+	def __init__(self, soldier_type, weapon):
 		self.soldier_type = soldier_type
-		self.name = name
 		self.weapon = weapon
 
 	def attack(self):
@@ -12,3 +11,7 @@ class Soldier:
 
 	def patrol(self):
 		pass
+
+# class Archer(Soldier):
+#     def attack(self):
+#         print(f"Soldier {self.soldier_type} is attacking with {self.}")
